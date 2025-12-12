@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///C:/Users/mrmus/OneDrive/Desktop/My%20sandbox/dv.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CIV 203 Project</title>
+
+  <style>
+    body {
+      background-color:#002a64;
+
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Centered background section */
+    .center-background {
+      width: 1000px;
+      height: 600px;
+      background-image: url('minepIMG/AUIS-SONIS-image.png');
+      background-size: cover;
+      background-position: center;
+      margin: 50px auto; /* centers horizontally */
+      display: flex;
+      align-items: center; /* centers text vertically */
+      justify-content: center;
+      color: white;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+
+    /* Top navigation bar */
+    .topnav {
+      background-color: #333;
+      color: white;
+      padding: 14px 20px;
+      text-align: right;
+    }
+
+    /* Sidebar menu */
+    .sidemenu {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.3s;
+      padding-top: 60px;
+    }
+
+    .sidemenu a {
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #f1f1f1;
+      display: block;
+      transition: 0.2s;
+    }
+
+    .sidemenu a:hover {
+      background-color: #575757;
+    }
+
+    /* Close button inside the menu */
+    .sidemenu .closebtn {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      font-size: 30px;
+    }
+
+    /* Menu button in top bar */
+    .menu-btn {
+      float: left;
+      font-size: 20px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top navigation bar -->
+  <div class="topnav">
+    <button class="menu-btn" onclick="openMenu()">☰ Menu</button>
+    <img src="minepIMG/download.png" width="30" height="30" alt="Logo">
+  </div>
+
+  <!-- Sidebar menu -->
+  <div id="mySidemenu" class="sidemenu">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">×</a>
+<a href="pdfFiles/2 Chapter Two.pdf" target="_blank">Group 1 PDF</a>
+  <a href="pdf/group2.pdf" target="_blank">Group 2 PDF</a>
+  <a href="pdf/group3.pdf" target="_blank">Group 3 PDF</a>
+  <a href="pdf/group4.pdf" target="_blank">Group 4 PDF</a>
+  <a href="pdf/group5.pdf" target="_blank">Group 5 PDF</a>
+  <a href="pdf/group6.pdf" target="_blank">Group 6 PDF</a>
+ <a href="pdf/group6.pdf" target="_blank">Group 7 PDF</a>
+ <a href="pdf/group6.pdf" target="_blank">Group 6 PDF</a>
+ <a href="pdf/group6.pdf" target="_blank">Group 6 PDF</a>
+ <a href="pdf/group6.pdf" target="_blank">Group 6 PDF</a>
+ <a href="pdf/group6.pdf" target="_blank">Group 6 PDF</a>
+ <a href="pdf/group6.pdf" target="_blank">Group 6 PDF</a>
+
+
+
+
+
+</div>
+
+  <!-- Page content -->
+  <div style="padding:20px;">
+    <h1>Welcome to CIV 203 Project</h1>
+    <p></p>
+
+    <!--ackground image section -->
+    <div class="center-background">
+     
+    </div>
+  </div>
+
+  <script>
+    function openMenu() {
+      document.getElementById("mySidemenu").style.width = "250px";
+    }
+
+    function closeMenu() {
+      document.getElementById("mySidemenu").style.width = "0";
+    }
+  </script>
+
+
+
+</body>
+</html>
